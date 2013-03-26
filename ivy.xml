@@ -25,6 +25,7 @@ SOFTWARE.
 
   <configurations defaultconfmapping="default">
     <!--these match the Maven configurations-->
+    <!--changed for webhook tests-->
     <conf name="default" extends="master,runtime"/>
     <conf name="master" description="contains artifact but no dependencies"/>
     <conf name="runtime" description="runtime but not the artifact" />
