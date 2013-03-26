@@ -25,6 +25,7 @@ SOFTWARE.
 
   <configurations defaultconfmapping="default">
     <!--these match the Maven configurations-->
+<!--deepti-->
     <!--changed for webhook tests-->
     <conf name="default" extends="master,runtime"/>
     <conf name="master" description="contains artifact but no dependencies"/>
